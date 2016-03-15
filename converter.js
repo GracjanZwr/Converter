@@ -2,7 +2,7 @@ var converter =  {
 
   ones : [ '', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'],
   tens : ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'],
-  twenys : ['', '', 'twenty', 'thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'],
+  twenys : ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'],
 
   numbersToWords: function (str) {
     str = str ? str : '0';
