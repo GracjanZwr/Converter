@@ -38,5 +38,3 @@ var converter =  {
   }
 }
 module.exports = converter;
-var a = converter.numbersToWords('505')
-console.log(a);
