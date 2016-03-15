@@ -1,8 +1,6 @@
 var expect = require('chai').expect,
     convert_numbers = require('./converter').numbersToWords;
 
-convert_numbers('100');
-
 describe('description', function () {
   it('Check if numbersToWords function accept empty argument', function () {
     var output = convert_numbers();
