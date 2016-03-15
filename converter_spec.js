@@ -30,7 +30,7 @@ describe('description', function () {
   it('Check 2 digits number', function () {
     var output = convert_numbers('45');
     var output_1 = convert_numbers('50');
-    expect(output).to.equal('fourty five');
+    expect(output).to.equal('forty five');
     expect(output_1).to.equal('fifty ');
   })
   it('Check 3 digits number', function () {
