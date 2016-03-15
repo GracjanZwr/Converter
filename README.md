@@ -1,3 +1,5 @@
+## Description
+Converter converts numbers type of string into Words. Only numbers from 0-9999 are supported.
 ## Installation
 You need to have npm and node.js envoirement on your system: <br>
 1. https://nodejs.org/en/download/ <br/>
