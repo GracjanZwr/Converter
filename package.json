@@ -1,0 +1,16 @@
+{
+  "name": "small_test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha converter_spec.js"
+  },
+  "author": "Gracjan Zawierucha",
+  "license": "BSD-2-Clause"
+}
