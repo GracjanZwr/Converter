@@ -28,7 +28,6 @@ var converter =  {
                   : ones[str[0]] + ' hundred ' + tens[str[2]];
               case 4:
               var h = ones[str[1]] != '' ? ' hundred ' : '';
-              var e = ones[str[1]] != '' ? ' hundred ' : '';
                 return str[2] != '1'
                   ? ones[str[0]] + ' thousand ' + ones[str[1]] + h + twenys[str[2]] + ' ' + ones[str[3]]
                   : ones[str[0]] + ' thousand ' + ones[str[1]] + h + tens[str[3]];

@@ -45,7 +45,9 @@ describe('description', function () {
     var output = convert_numbers('4050');
     var output_1 = convert_numbers('5000');
     var output_2 = convert_numbers('4356');
+    var output_3 = convert_numbers('4500');
     expect(output).to.equal('four thousand fifty ');
+    expect(output_3).to.equal('four thousand five hundred  ');
     expect(output_1).to.equal('five thousand  ');
     expect(output_2).to.equal('four thousand three hundred fifty six');
   })
